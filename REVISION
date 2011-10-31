@@ -1,0 +1,4 @@
+module: bobsh/sshd
+version: 1.0.0
+url: file:///Users/arnaud/.puppet/var/puppet-module/cache/http_forge_puppetlabs_com-75a31f1d6f1ef6eb63b4479b3512ee1508209a7f/bobsh-sshd-1.0.0.tar.gz
+installed: Mon Oct 31 11:19:19 +0100 2011
