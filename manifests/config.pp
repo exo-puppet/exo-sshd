@@ -23,11 +23,12 @@
 # [<b>value => "<value>"</b>]
 #   Value
 #
-define sshd::config($value) {
+define sshd::config (
+  $value) {
   include sshd::setup
-  
-  sshd_config{$name:
-    value => $value,
-    notify => Service[ssh] 
+
+  sshd_config { $name:
+    value  => $value,
+    notify => Service[ssh]
   }
 }
